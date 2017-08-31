@@ -38,7 +38,7 @@ function viewCart() {
       var price = thisItem[k];
     }
 
-    if (cart.length >= 1 && i < cart.length - 2) {
+    if (cart.length > 1 && i < cart.length - 2) {
       result += ` ${itemName} at $${price},`
     } else if (i === cart.length - 2) {
       result += ` ${itemName} at $${price}, and`
