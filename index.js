@@ -47,7 +47,7 @@ function viewCart() {
     }
 
   }
-  return result;
+  console.log(result);
 }
 
 // console.log(viewCart());
