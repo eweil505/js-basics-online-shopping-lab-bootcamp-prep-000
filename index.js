@@ -40,11 +40,15 @@ function viewCart() {
 
     if (cart.length > 1 && i < cart.length - 2) {
       result += ` ${itemName} at $${price},`
+    } else if {
+      
     } else if (i === cart.length - 2) {
-      result += ` ${itemName} at $${price}, and`
+          result += ` ${itemName} at $${price}, and`
     } else {
-      result += ` ${itemName} at $${price}.`
+          result += ` ${itemName} at $${price}.`
     }
+
+
 
   }
   console.log(result);
